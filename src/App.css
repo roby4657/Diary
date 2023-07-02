@@ -4,7 +4,13 @@
   padding: 20px;
 }
 
-.DiaryEditor input, textarea{
+.DiaryEditor input{
+  margin-bottom: 20px;
+  width: 200px;
+  padding: 10px;
+}
+
+.DiaryEditor textarea{
   margin-bottom: 20px;
   width: 500px;
   padding: 10px;

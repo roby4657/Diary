@@ -41,14 +41,16 @@ function DiaryEditor ({onCreate}){
     return <div className="DiaryEditor">
         <h2>오늘의 일기</h2>
         <div>
+            작성자: &nbsp; 
             <input
             ref ={authorInput}
             name = "author"
             value={state.author} 
              onChange={handleChangeState}/>
         </div>
-
+        내용
         <div>
+            
             <textarea name="content" value={state.content}
             ref={contentInput}
             onChange={handleChangeState}/>
